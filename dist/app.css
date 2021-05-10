@@ -62,3 +62,7 @@ header {
   border-radius: 2px;
   font-size: 8px;
 }
+
+.jumbotron {
+  height: 500px;
+}

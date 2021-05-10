@@ -12,6 +12,8 @@ var app = new Vue(
                 'Blog',
                 'Store'
             ],
+
+            // Header Icons strings Array
             header_icons: [
                 'shopping-cart',
                 'search'

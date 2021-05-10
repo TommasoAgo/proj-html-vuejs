@@ -1,7 +1,11 @@
+// HEADER
+
 header {
     font-family: $regular_font;
     background-color: $header_primary_color;
 }
+
+// Header Content
 
 .header-content {
     @include flex_row;
@@ -48,6 +52,7 @@ header {
     }
 }
 
+// Small box in "Store"
 .header-new {
     background-color: #fff941;
     padding: 4px;
