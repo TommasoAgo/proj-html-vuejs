@@ -48,15 +48,9 @@
                         </li>
 
                         <!-- Header Icons -->
-                        <li>
+                        <li v-for="(icon, index) in header_icons">
                             <a href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-search"></i>
+                                <i class="fas" :class="'fa-' + icon"></i>
                             </a>
                         </li>
                     </ul>

@@ -11,6 +11,10 @@ var app = new Vue(
                 'Videos',
                 'Blog',
                 'Store'
+            ],
+            header_icons: [
+                'shopping-cart',
+                'search'
             ]
         }
     }
