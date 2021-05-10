@@ -1,0 +1,16 @@
+// Flex-row Mixin
+
+@mixin flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+// Common Blue Button
+
+@mixin blue_button {
+    padding: 10px 20px;
+    background-color: $button_blue;
+    border: none;
+    border-radius: 999px;
+    color: white;
+}

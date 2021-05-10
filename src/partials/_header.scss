@@ -1,0 +1,56 @@
+header {
+    font-family: $regular_font;
+    background-color: $header_primary_color;
+}
+
+.header-content {
+    @include flex_row;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+
+    img {
+        width: 150px;
+    }
+
+    .header-menu {
+        ul {
+        font-size: $header_font_size;
+        @include flex_row;
+        align-items: center;
+
+            li {
+                padding: 0 15px;
+                list-style-type: none;
+
+                a {
+                    color: #676670;
+                    text-decoration: none;
+                    font-size: $header_font_size;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+
+                button {
+                    @include blue_button;
+                    font-size: $header_font_size;
+                    font-family: $regular_font;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $button_hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-new {
+    background-color: #fff941;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 8px;
+}
