@@ -1,5 +1,80 @@
 // JUMBOTRON
+.jumbo-content {
+    @include flex_row;
+
+    .jumbo-left {
+        width: 60%;
+    }
+
+    .jumbo-right {
+        width: 40%;
+        position: relative;
+
+        .play-circle {
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            transform: translate(-50%, -60%);
+        }
+    }
+}
 
 .jumbotron {
-    height: 500px;
+    padding-top: 90px;
+    height: 450px;
+    background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/slider82x-scaled.jpg);
+    // To add gradient!!! 
+    background-size: cover;
+
+    .title {
+        font-family: $regular_font;
+
+        h4 {
+            color: #f33a42;
+        }
+
+        h1 {
+            color: $titles_color;
+            margin: 10px 0;
+            font-size: 55px;
+        }
+
+        p {
+            color: $grey_txt_color;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+    }
 }
+
+.jumbo-buttons {
+    .youtube-btn {
+        @include blue_button;
+        font-size: 14px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $button_hover;
+        }
+    }
+}
+
+// Buy Today Button 
+.buy-btn {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-family: $regular_font;
+    font-size: 14px;
+    border: 1px solid $grey_txt_color;
+    cursor: pointer;
+    margin-left: 10px;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+

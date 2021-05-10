@@ -9,6 +9,31 @@
   margin: auto;
 }
 
+.yellow-separator {
+  color: #dbd738;
+  letter-spacing: -3px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.white-separator {
+  color: white;
+  letter-spacing: -3px;
+  font-weight: lighter;
+}
+
+.play-circle {
+  padding: 25px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.play-circle i {
+  vertical-align: middle;
+  color: #4154ff;
+}
+
 header {
   font-family: "Barlow Semi Condensed";
   background-color: #060607;
@@ -48,7 +73,8 @@ header {
   border: none;
   border-radius: 999px;
   color: white;
-  font-size: 14px;
+  font-family: "Barlow Semi Condensed";
+  font-size: 10px;
   font-family: "Barlow Semi Condensed";
 }
 .header-content .header-menu ul li button:hover {
@@ -63,6 +89,74 @@ header {
   font-size: 8px;
 }
 
+.jumbo-content {
+  display: flex;
+  flex-direction: row;
+}
+.jumbo-content .jumbo-left {
+  width: 60%;
+}
+.jumbo-content .jumbo-right {
+  width: 40%;
+  position: relative;
+}
+.jumbo-content .jumbo-right .play-circle {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -60%);
+}
+
 .jumbotron {
-  height: 500px;
+  padding-top: 90px;
+  height: 450px;
+  background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/slider82x-scaled.jpg);
+  background-size: cover;
+}
+.jumbotron .title {
+  font-family: "Barlow Semi Condensed";
+}
+.jumbotron .title h4 {
+  color: #f33a42;
+}
+.jumbotron .title h1 {
+  color: white;
+  margin: 10px 0;
+  font-size: 55px;
+}
+.jumbotron .title p {
+  color: #676670;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.jumbo-buttons .youtube-btn {
+  padding: 10px 20px;
+  background-color: #4154ff;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+}
+.jumbo-buttons .youtube-btn:hover {
+  cursor: pointer;
+  background-color: #ff414b;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  border: 1px solid #676670;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.buy-btn:hover {
+  background-color: white;
+  color: black;
 }

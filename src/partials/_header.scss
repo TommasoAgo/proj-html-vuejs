@@ -28,7 +28,7 @@ header {
                 list-style-type: none;
 
                 a {
-                    color: #676670;
+                    color: $grey_txt_color;
                     text-decoration: none;
                     font-size: $header_font_size;
 
@@ -39,7 +39,7 @@ header {
 
                 button {
                     @include blue_button;
-                    font-size: $header_font_size;
+                    font-size: 10px;
                     font-family: $regular_font;
 
                     &:hover {

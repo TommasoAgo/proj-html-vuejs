@@ -5,6 +5,13 @@
     flex-direction: row;
 }
 
+// Flex-column Mixin
+
+@mixin flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
 // Common Blue Button
 
 @mixin blue_button {
@@ -13,4 +20,5 @@
     border: none;
     border-radius: 999px;
     color: white;
+    font-family: $regular_font;
 }
