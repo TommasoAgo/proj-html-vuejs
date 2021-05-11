@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+// Font
+body {
+    font-family: $regular_font;
+}
+
 // Wrapper
 .wrapper {
     width: 80%;

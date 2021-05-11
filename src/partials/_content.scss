@@ -29,7 +29,6 @@
     .bj-text {
         margin-top: 60%;
         padding: 20px;
-        font-family: $regular_font;
 
         h3 {
             color: $titles_color;
@@ -67,7 +66,6 @@
     padding: 20px 0;
 
     h2 {
-        font-family: $regular_font;
         color: $titles_color;
         font-size: 35px;
         line-height: 50px;
@@ -88,13 +86,11 @@
     }
 
     .bj-name {
-        font-family: $regular_font;
         color: $titles_color;
         margin: 0 10px;
     }
 
     .bj-lasvegas {
-        font-family: $regular_font;
         color: $grey_txt_color;
     }
 }
@@ -134,13 +130,11 @@
     padding: 80px 70px;
 
     a {
-        font-family: $regular_font;
         text-decoration: none;
         color: #5673ff;
     }
 
     h2 {
-        font-family: $regular_font;
         font-size: 40px;
         font-weight: 400;
         margin: 20px 0;
@@ -159,7 +153,6 @@
     vertical-align: middle;
 
     p {
-        font-family: $regular_font;
         font-size: 10px;
         color: $grey_txt_color;
     }
@@ -194,7 +187,6 @@
 }
 
 .yt-paragraph {
-    font-family: $regular_font;
     color: $grey_txt_color;
     margin: 40px 0;
     font-size: 15px;
@@ -208,7 +200,6 @@
     border: none;
     border-radius: 999px;
     color: white;
-    font-family: $regular_font;
     cursor: pointer;
 
     &:hover {
@@ -222,7 +213,6 @@
 .playlist-title {
     @include flex_row;
     justify-content: space-between;
-    font-family: $regular_font;
     
 
     h5 {
@@ -276,14 +266,12 @@
     margin-top: 30px;
 
     h5 {
-        font-family: $regular_font;
         font-size: 16px;
         font-weight: 400;
         margin: 10px 0;
     }
 
     a {
-        font-family: $regular_font;
         text-decoration: none;
         font-size: 12px;
         color: #5673ff;
@@ -291,6 +279,62 @@
 }
 
 // MAILING LIST SECTION
+
+// Background IMG
+.mailing-list-section {
+    background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/banner1-2x.jpg);
+    background-size: cover;
+}
+
+// Mailing List Content
+.mailing-list-content {
+    @include flex_row;
+    padding: 80px 0;
+}
+
+.form {
+    width: 60%;
+
+    h4 {
+        color: #f33a42;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 400;
+        margin: 20px 0;
+        color: white;
+    }
+
+    p {
+        color: $grey_txt_color;
+    }
+
+    .insert-email {
+        margin: 40px 0;
+
+        #email {
+            width: 400px;
+            padding: 10px 20px;
+            border-radius: 999px;
+            border: none;
+        }
+
+        button {
+            @include blue_button;
+            width: 150px;
+            margin-left: 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $button_hover;
+            }
+        }
+    }
+}
+
+// CARDS SECTION
+
 
 
 

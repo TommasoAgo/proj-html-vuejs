@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Barlow Semi Condensed";
+}
+
 .wrapper {
   width: 80%;
   margin: auto;
@@ -36,7 +40,6 @@
 }
 
 header {
-  font-family: "Barlow Semi Condensed";
   background-color: #060607;
 }
 
@@ -76,7 +79,6 @@ header {
   color: white;
   font-family: "Barlow Semi Condensed";
   font-size: 10px;
-  font-family: "Barlow Semi Condensed";
 }
 .header-content .header-menu ul li button:hover {
   cursor: pointer;
@@ -114,9 +116,6 @@ header {
   background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/slider82x-scaled.jpg);
   background-size: cover;
 }
-.jumbotron .title {
-  font-family: "Barlow Semi Condensed";
-}
 .jumbotron .title h4 {
   color: #f33a42;
 }
@@ -151,7 +150,6 @@ header {
   border: none;
   border-radius: 999px;
   color: white;
-  font-family: "Barlow Semi Condensed";
   font-size: 14px;
   border: 1px solid #676670;
   cursor: pointer;
@@ -187,7 +185,6 @@ header {
 .bj-img .bj-text {
   margin-top: 60%;
   padding: 20px;
-  font-family: "Barlow Semi Condensed";
 }
 .bj-img .bj-text h3 {
   color: white;
@@ -217,7 +214,6 @@ header {
   padding: 20px 0;
 }
 .bj-banner h2 {
-  font-family: "Barlow Semi Condensed";
   color: white;
   font-size: 35px;
   line-height: 50px;
@@ -233,12 +229,10 @@ header {
   vertical-align: middle;
 }
 .bj-avatar .bj-name {
-  font-family: "Barlow Semi Condensed";
   color: white;
   margin: 0 10px;
 }
 .bj-avatar .bj-lasvegas {
-  font-family: "Barlow Semi Condensed";
   color: #676670;
 }
 
@@ -273,12 +267,10 @@ header {
   padding: 80px 70px;
 }
 .yt-txt a {
-  font-family: "Barlow Semi Condensed";
   text-decoration: none;
   color: #5673ff;
 }
 .yt-txt h2 {
-  font-family: "Barlow Semi Condensed";
   font-size: 40px;
   font-weight: 400;
   margin: 20px 0;
@@ -294,7 +286,6 @@ header {
   vertical-align: middle;
 }
 .theme-fusion-txt p {
-  font-family: "Barlow Semi Condensed";
   font-size: 10px;
   color: #676670;
 }
@@ -324,7 +315,6 @@ header {
 }
 
 .yt-paragraph {
-  font-family: "Barlow Semi Condensed";
   color: #676670;
   margin: 40px 0;
   font-size: 15px;
@@ -337,7 +327,6 @@ header {
   border: none;
   border-radius: 999px;
   color: white;
-  font-family: "Barlow Semi Condensed";
   cursor: pointer;
 }
 .red-btn:hover {
@@ -348,7 +337,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Barlow Semi Condensed";
 }
 .playlist-title h5 {
   font-size: 18px;
@@ -399,14 +387,62 @@ header {
   margin-top: 30px;
 }
 .video-title h5 {
-  font-family: "Barlow Semi Condensed";
   font-size: 16px;
   font-weight: 400;
   margin: 10px 0;
 }
 .video-title a {
-  font-family: "Barlow Semi Condensed";
   text-decoration: none;
   font-size: 12px;
   color: #5673ff;
+}
+
+.mailing-list-section {
+  background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/banner1-2x.jpg);
+  background-size: cover;
+}
+
+.mailing-list-content {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 0;
+}
+
+.form {
+  width: 60%;
+}
+.form h4 {
+  color: #f33a42;
+}
+.form h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: white;
+}
+.form p {
+  color: #676670;
+}
+.form .insert-email {
+  margin: 40px 0;
+}
+.form .insert-email #email {
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+}
+.form .insert-email button {
+  padding: 10px 20px;
+  background-color: #4154ff;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-family: "Barlow Semi Condensed";
+  width: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.form .insert-email button:hover {
+  background-color: #ff414b;
 }

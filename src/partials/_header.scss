@@ -1,7 +1,6 @@
 // HEADER
 
 header {
-    font-family: $regular_font;
     background-color: $header_primary_color;
 }
 
@@ -40,7 +39,6 @@ header {
                 button {
                     @include blue_button;
                     font-size: 10px;
-                    font-family: $regular_font;
 
                     &:hover {
                         cursor: pointer;

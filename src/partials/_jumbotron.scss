@@ -23,11 +23,9 @@
     padding-top: 90px;
     height: 450px;
     background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/slider82x-scaled.jpg);
-    // To add gradient!!! 
     background-size: cover;
 
     .title {
-        font-family: $regular_font;
 
         h4 {
             color: #f33a42;
@@ -66,7 +64,6 @@
     border: none;
     border-radius: 999px;
     color: white;
-    font-family: $regular_font;
     font-size: 14px;
     border: 1px solid $grey_txt_color;
     cursor: pointer;
