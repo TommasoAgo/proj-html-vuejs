@@ -446,3 +446,51 @@ header {
 .form .insert-email button:hover {
   background-color: #ff414b;
 }
+
+.cards {
+  background-color: #060607;
+  padding: 80px 0;
+}
+
+.cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-card {
+  width: 260px;
+  text-align: center;
+  border: 2px solid #3443ca;
+  border-radius: 5px;
+  padding: 60px 30px;
+}
+.single-card:hover {
+  transform: scale(1.1);
+}
+.single-card h4 {
+  color: white;
+}
+.single-card h5 {
+  color: #f7f53e;
+  font-size: 15px;
+}
+.single-card p {
+  color: #b7bcb7;
+  font-size: 12px;
+  margin: 20px 0;
+  line-height: 20px;
+}
+.single-card a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.single-card a i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+.single-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
