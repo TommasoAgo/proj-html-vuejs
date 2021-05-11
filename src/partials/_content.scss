@@ -347,6 +347,7 @@
     justify-content: space-between;
 }
 
+// Single Card
 .single-card {
     width: 260px;
     text-align: center;
@@ -388,6 +389,86 @@
     img {
         width: 60px;
         margin-bottom: 10px;
+    }
+}
+
+// LATEST ARTICLES SECTION
+.latest-articles {
+    padding: 60px 0;
+}
+
+// Title
+.articles-title {
+    @include flex_row;
+    justify-content: space-between;
+    margin: 30px 0;
+
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        
+        i {
+            margin-left: 5px;
+        }
+    }
+}
+
+// Articles
+.articles {
+    @include flex_row;
+    justify-content: space-between;
+
+    .single-article {
+        width: 270px;
+        background-size: cover;
+        height: 180px;
+        cursor: pointer;
+    }
+}
+
+// Background IMGs 
+.shake {
+    background-image: url(../img/blog4-2x.jpg);
+
+    &:hover {
+        background-image: linear-gradient(to top, rgba(122,124,221,255), rgba(122,124,221,0.1), transparent), url(../img/blog4-2x.jpg);
+    }
+}
+
+.cardio {
+    background-image: url(../img/blog1-2x.jpg);
+
+    &:hover {
+        background-image: linear-gradient(to top, rgba(122,124,221,255), rgba(122,124,221,0.1), transparent), url(../img/blog1-2x.jpg);
+    }
+}
+
+.juices {
+    background-image: url(../img/blog3-2x.jpg);
+
+    &:hover {
+        background-image: linear-gradient(to top, rgba(122,124,221,255), rgba(122,124,221,0.1), transparent), url(../img/blog3-2x.jpg);
+    }
+}
+
+// Single Article Title
+.single-art-title {
+    padding: 20px 0 0 20px;
+
+    h4 {
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 12px;
+        color: $grey_txt_color;
+        margin-top: 5px;
     }
 }
 

@@ -494,3 +494,71 @@ header {
   width: 60px;
   margin-bottom: 10px;
 }
+
+.latest-articles {
+  padding: 60px 0;
+}
+
+.articles-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.articles-title h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.articles-title a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+.articles-title a i {
+  margin-left: 5px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articles .single-article {
+  width: 270px;
+  background-size: cover;
+  height: 180px;
+  cursor: pointer;
+}
+
+.shake {
+  background-image: url(../img/blog4-2x.jpg);
+}
+.shake:hover {
+  background-image: linear-gradient(to top, #7a7cdd, rgba(122, 124, 221, 0.1), transparent), url(../img/blog4-2x.jpg);
+}
+
+.cardio {
+  background-image: url(../img/blog1-2x.jpg);
+}
+.cardio:hover {
+  background-image: linear-gradient(to top, #7a7cdd, rgba(122, 124, 221, 0.1), transparent), url(../img/blog1-2x.jpg);
+}
+
+.juices {
+  background-image: url(../img/blog3-2x.jpg);
+}
+.juices:hover {
+  background-image: linear-gradient(to top, #7a7cdd, rgba(122, 124, 221, 0.1), transparent), url(../img/blog3-2x.jpg);
+}
+
+.single-art-title {
+  padding: 20px 0 0 20px;
+}
+.single-art-title h4 {
+  font-weight: 400;
+}
+.single-art-title p {
+  font-size: 12px;
+  color: #676670;
+  margin-top: 5px;
+}
