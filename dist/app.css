@@ -145,6 +145,7 @@ header {
 }
 
 .buy-btn {
+  font-family: "Barlow Semi Condensed";
   padding: 10px 20px;
   background-color: black;
   border: none;
@@ -177,6 +178,7 @@ header {
   width: 270px;
   background-size: contain;
   border-radius: 5px 5px 30px 5px;
+  transition: 1s;
 }
 .bj-img:hover {
   transform: scale(1.1);
@@ -464,6 +466,7 @@ header {
   border: 2px solid #3443ca;
   border-radius: 5px;
   padding: 60px 30px;
+  transition: 1s;
 }
 .single-card:hover {
   transform: scale(1.1);
