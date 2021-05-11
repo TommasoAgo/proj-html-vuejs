@@ -17,7 +17,12 @@ var app = new Vue(
             header_icons: [
                 'shopping-cart',
                 'search'
-            ]
+            ],
+
+            // New Menu Element
+
+            // I save it in a variable, just to make it better maintainable
+            newMenuElement: 'Store'
         }
     }
 )

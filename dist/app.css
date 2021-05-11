@@ -28,6 +28,7 @@
   display: inline-block;
   border-radius: 50%;
   font-size: 12px;
+  cursor: pointer;
 }
 .play-circle i {
   vertical-align: middle;
@@ -159,4 +160,83 @@ header {
 .buy-btn:hover {
   background-color: white;
   color: black;
+}
+
+.bj-section {
+  padding-bottom: 100px;
+  background: linear-gradient(to top left, #d4000c, #0519e8);
+}
+
+.bj-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -60px;
+}
+
+.bj-img {
+  width: 270px;
+  background-size: contain;
+  border-radius: 5px 5px 25px 5px;
+}
+.bj-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.bj-img .bj-text {
+  margin-top: 60%;
+  padding: 20px;
+  font-family: "Barlow Semi Condensed";
+}
+.bj-img .bj-text h3 {
+  color: white;
+}
+.bj-img .bj-text h4 {
+  color: #fff941;
+}
+.bj-img .bj-text .white-separator {
+  display: block;
+  margin: 10px 0;
+}
+
+.workout-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/service6-2x.jpg);
+}
+
+.gym-apparel-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/box1-2x.jpg);
+}
+
+.team-training-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), transparent), url(../img/box3-2x.jpg);
+}
+
+.bj-banner {
+  text-align: center;
+  padding: 20px 0;
+}
+.bj-banner h2 {
+  font-family: "Barlow Semi Condensed";
+  color: white;
+  font-size: 35px;
+}
+.bj-banner .yellow-separator {
+  display: block;
+  margin: 20px 0;
+}
+
+.bj-avatar img {
+  width: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.bj-avatar .bj-name {
+  font-family: "Barlow Semi Condensed";
+  color: white;
+  margin: 0 10px;
+}
+.bj-avatar .bj-lasvegas {
+  font-family: "Barlow Semi Condensed";
+  color: #676670;
 }
