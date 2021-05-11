@@ -19,7 +19,7 @@
 .bj-img {
     width: 270px;
     background-size: contain;
-    border-radius: 5px 5px 25px 5px;
+    border-radius: $box_img_border_radius;
 
     &:hover {
         transform: scale(1.1);
@@ -70,6 +70,7 @@
         font-family: $regular_font;
         color: $titles_color;
         font-size: 35px;
+        line-height: 50px;
     }
 
     .yellow-separator {
@@ -78,6 +79,7 @@
     }
 } 
 
+// Brad Johnson Avatar
 .bj-avatar {
     img {
         width: 40px;
@@ -96,3 +98,202 @@
         color: $grey_txt_color;
     }
 }
+
+// YOUTUBE SECTION
+.youtube-section {
+    padding-bottom: 50px;
+}
+
+// YouTube First Row
+
+// Big Image
+.yt-first-row {
+    @include flex_row;
+    
+    .yt-big-img {
+        position: relative;
+        top: -50px;
+        border-radius: $box_img_border_radius;
+        background-image: url(../img/service15-2x.jpg);
+        background-size: cover;
+        height: 600px;
+
+        .play-circle {
+            @include centered_item;
+            width: auto;
+        }
+    }
+
+    div {
+        width: 50%;
+    }
+}
+
+// Text Part
+.yt-txt {
+    padding: 80px 70px;
+
+    a {
+        font-family: $regular_font;
+        text-decoration: none;
+        color: #5673ff;
+    }
+
+    h2 {
+        font-family: $regular_font;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+}
+
+.theme-fusion {
+    img {
+        width: 35px;
+        vertical-align: middle;
+    }
+}
+
+.theme-fusion-txt {
+    display: inline-block;
+    vertical-align: middle;
+
+    p {
+        font-family: $regular_font;
+        font-size: 10px;
+        color: $grey_txt_color;
+    }
+
+    .yt-btn {
+        width: 76px;
+        border: 1px solid lightgray;
+        font-family: sans-serif;
+        font-size: 8px;
+        height: 15px;
+        margin-top: 8px;
+        cursor: pointer;
+        
+        .yt-name {
+            background-color: #e61d13;
+            height: 100%;
+            display: inline-block;
+            color: white;
+            padding: 2px;
+
+            i {
+                margin: 0 3px;
+            }
+        }
+
+        .yt-views {
+            background-color: #fbfbfb;
+            color: grey;
+            vertical-align: middle;
+        }
+    }
+}
+
+.yt-paragraph {
+    font-family: $regular_font;
+    color: $grey_txt_color;
+    margin: 40px 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+// Red Button
+.red-btn {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-family: $regular_font;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $button_blue;
+    }
+}
+
+// YouTube Second Row
+
+// Playlist Title
+.playlist-title {
+    @include flex_row;
+    justify-content: space-between;
+    font-family: $regular_font;
+    
+
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+    }
+}
+
+.yt-playlist {
+    @include flex_row;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    .playlist-img {
+        width: 270px;
+        background-size: cover;
+        border-radius: $box_img_border_radius;
+        height: 180px;
+        position: relative;
+
+        .play-circle {
+            @include centered_item;
+            padding: 16px;
+            font-size: 7px;
+        }
+    }
+}
+
+// Background images 
+.thighs {
+    background-image: url(../img/video2-2x.jpg);
+}
+
+.lift {
+    background-image: url(../img/video7-2x.jpg);
+}
+
+.waist {
+    background-image: url(../img/video9-2x.jpg);
+}
+
+// Videos title
+.video-title {
+    text-align: center;
+    margin-top: 30px;
+
+    h5 {
+        font-family: $regular_font;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+    a {
+        font-family: $regular_font;
+        text-decoration: none;
+        font-size: 12px;
+        color: #5673ff;
+    }
+}
+
+// MAILING LIST SECTION
+
+
+
+
+
+

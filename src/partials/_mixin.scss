@@ -22,3 +22,11 @@
     color: white;
     font-family: $regular_font;
 }
+
+// Centered Item 
+@mixin centered_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
