@@ -20,6 +20,13 @@ body {
   font-size: 18px;
 }
 
+.blue-separator {
+  color: #4154fe;
+  letter-spacing: -3px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
 .white-separator {
   color: white;
   letter-spacing: -3px;
@@ -599,4 +606,43 @@ header {
 }
 .advice-txt button i {
   font-size: 8px;
+}
+
+.clubs-section {
+  padding: 80px 0;
+}
+
+.clubs-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-club {
+  width: calc( 100% / 4 );
+  text-align: center;
+}
+.single-club img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.single-club .blue-separator {
+  display: block;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.single-club p {
+  font-size: 13px;
+  color: #676670;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.single-club a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.single-club a i {
+  font-size: 10px;
 }
