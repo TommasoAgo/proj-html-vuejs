@@ -18,7 +18,7 @@ header {
 
     .header-menu {
         ul {
-        font-size: $header_font_size;
+        font-size: $normal_text_size;
         @include flex_row;
         align-items: center;
 
@@ -29,7 +29,7 @@ header {
                 a {
                     color: $grey_txt_color;
                     text-decoration: none;
-                    font-size: $header_font_size;
+                    font-size: $normal_text_size;
 
                     &:hover {
                         color: white;

@@ -565,3 +565,38 @@ header {
   color: #676670;
   margin-top: 5px;
 }
+
+.advice-section {
+  padding: 110px 200px;
+  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), transparent), url(../img/banner2-2x.jpg);
+  background-size: cover;
+}
+
+.advice-txt {
+  text-align: center;
+  color: white;
+}
+.advice-txt h2 {
+  font-size: 40px;
+}
+.advice-txt .yellow-separator {
+  display: inline-block;
+  margin: 20px 0;
+}
+.advice-txt button {
+  padding: 10px 20px;
+  background-color: #4154ff;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-family: "Barlow Semi Condensed";
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.advice-txt button:hover {
+  background-color: #ff414b;
+}
+.advice-txt button i {
+  font-size: 8px;
+}

@@ -474,6 +474,43 @@
     }
 }
 
+// ADVICE SECTION
+.advice-section {
+    padding: 110px 200px;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), transparent), url(../img/banner2-2x.jpg);
+    background-size: cover;
+}
+
+// Advice
+.advice-txt {
+    text-align: center;
+    color: white;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .yellow-separator {
+        display: inline-block;
+        margin: 20px 0;
+    }
+
+    button {
+        @include blue_button;
+        font-size: 12px;
+        cursor: pointer;
+        margin-top: 20px;
+
+        &:hover{
+            background-color: $button_hover;
+        }
+
+        i {
+            font-size: 8px;
+        }
+    }
+}
+
 
 
 
