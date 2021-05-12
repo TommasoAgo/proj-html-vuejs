@@ -199,7 +199,7 @@ header {
   color: white;
 }
 .bj-img .bj-text h4 {
-  color: #fff941;
+  color: #f7f53e;
 }
 .bj-img .bj-text .white-separator {
   display: block;
@@ -609,7 +609,7 @@ header {
 }
 
 .clubs-section {
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 .clubs-row {
@@ -645,4 +645,34 @@ header {
 }
 .single-club a i {
   font-size: 10px;
+}
+
+.workout-section {
+  padding: 150px 0;
+  filter: contrast(1.8);
+  background-image: linear-gradient(to top left, rgba(119, 39, 76, 0.7), rgba(36, 46, 151, 0.7) 100%), url(../img/banner14-2x.jpg);
+  background-size: cover;
+}
+
+.workout-content {
+  text-align: center;
+}
+.workout-content .play-circle {
+  padding: 20px;
+  font-size: 8px;
+}
+.workout-content h2 {
+  color: white;
+  font-size: 35px;
+  margin: 10px 0;
+}
+.workout-content h3 {
+  color: #f7f53e;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.workout-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
