@@ -39,6 +39,7 @@ header {
                 button {
                     @include blue_button;
                     font-size: 10px;
+                    transition: .2s;
 
                     &:hover {
                         cursor: pointer;

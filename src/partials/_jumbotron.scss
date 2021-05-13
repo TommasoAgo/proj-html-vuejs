@@ -49,6 +49,7 @@
     .youtube-btn {
         @include blue_button;
         font-size: 14px;
+        transition: .2s;
 
         &:hover {
             cursor: pointer;
@@ -69,6 +70,7 @@
     border: 1px solid $grey_txt_color;
     cursor: pointer;
     margin-left: 10px;
+    transition: .2s;
 
     &:hover {
         background-color: white;

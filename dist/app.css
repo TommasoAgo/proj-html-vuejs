@@ -89,6 +89,7 @@ header {
   color: white;
   font-family: "Barlow Semi Condensed";
   font-size: 10px;
+  transition: 0.2s;
 }
 .header-content .header-menu ul li button:hover {
   cursor: pointer;
@@ -148,6 +149,7 @@ header {
   color: white;
   font-family: "Barlow Semi Condensed";
   font-size: 14px;
+  transition: 0.2s;
 }
 .jumbo-buttons .youtube-btn:hover {
   cursor: pointer;
@@ -165,6 +167,7 @@ header {
   border: 1px solid #676670;
   cursor: pointer;
   margin-left: 10px;
+  transition: 0.2s;
 }
 .buy-btn:hover {
   background-color: white;
@@ -340,6 +343,7 @@ header {
   border-radius: 999px;
   color: white;
   cursor: pointer;
+  transition: 0.2s;
 }
 .red-btn:hover {
   background-color: #4154ff;
@@ -454,6 +458,7 @@ header {
   width: 150px;
   margin-left: 20px;
   cursor: pointer;
+  transition: 0.2s;
 }
 .form .insert-email button:hover {
   background-color: #ff414b;
