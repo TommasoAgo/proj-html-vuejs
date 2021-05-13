@@ -2,8 +2,9 @@ var app = new Vue(
     {
         el: '#root',
         data: {
+            // HEADER
 
-            // Header content strings Array
+            // Header content Strings Array
             header_menu: [
                 'Home',
                 'Services',
@@ -19,10 +20,28 @@ var app = new Vue(
                 'search'
             ],
 
-            // New Menu Element
+            // New Header Menu Element
 
             // I save it in a variable, just to make it better maintainable
-            newMenuElement: 'Store'
+            newMenuElement: 'Store',
+
+            // FOOTER
+
+            // Recent Posts Strings Array
+            recentPosts: [
+                'The best protein shake',
+                'Ultimate cardio workout',
+                'New juices available now',
+                'Tips to find training partners',
+                '20 best healthy recipes'
+            ],
+
+            // Contact Infos
+            contactInfos: {
+                address: '4746 Tipple Road Michigan 48449',
+                mobileNumber: '1.800.000.0000',
+                email: 'info@your-company.com'
+            }
         }
     }
 )

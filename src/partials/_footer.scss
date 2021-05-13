@@ -1,0 +1,76 @@
+// FOOTER
+footer {
+    background-color: black;
+
+    a {
+        text-decoration: none
+    }
+}
+
+.footer-content {
+    @include flex_row;
+    justify-content: space-between;
+    padding: 80px 0;
+
+    .footer-box {
+        text-align: center;
+        width: calc( 100% / 3 );
+    }
+
+    li {
+        list-style-type: none;
+    }
+};
+
+// Footer Logo
+.footer-logo {
+    padding-top: 15px;
+
+    img {
+        width: 150px;
+    }
+
+    p {
+        font-size: 13px;
+        color: #bcbcbc;
+        margin: 30px 0;
+    }
+
+    a {
+        font-size: 12px;
+        margin: 0 5px;
+        color: $icons_sienna;
+    }
+}
+
+// Footer List Title
+.footer-list-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+// Footer List Elements
+.footer-box {
+    ul {
+        li {
+            font-size: 14px;
+            margin: 15px 0;
+            color: white;
+
+            a {
+                color: white;
+
+                i {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+.address {
+    color: #bcbcbc !important;
+}
+

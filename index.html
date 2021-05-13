@@ -607,6 +607,104 @@
         </main>
 
         <!-- END MAIN -->
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <!-- Footer Main Content -->
+            <div class="footer-content wrapper">
+
+                <!-- Footer Logo -->
+                <div class="footer-logo footer-box">
+
+                    <!-- Footer Logo Img -->
+                    <img src="img/logo.png" alt="Logo">
+
+                    <!-- Footer Logo Txt -->
+                    <p>
+                        Ac aliquam neque sagittis diam faucibus vitae <br>
+                        purus turbis phasellus. Pallentesque consectetur <br>
+                        amet purus ultrices mauris.
+                    </p>
+
+                    <!-- Social Icons -->
+                    <div class="footer-social-icons">
+
+                        <!-- Facebook -->
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <!-- Twitter -->
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <!-- YouTube -->
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <!-- Recent Posts -->
+                <div class="recent-posts footer-box">
+
+                    <ul>
+                        <!-- List Title -->
+                        <li class="footer-list-title">
+                            Recent Posts
+                        </li>
+
+                        <!-- List Element -->
+                        <li v-for="post in recentPosts">
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i> {{ post }}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Informations -->
+                <div class="contact-infos footer-box">
+
+                    <ul>
+                        <!-- List Title -->
+                        <li class="footer-list-title">
+                            Contact Informations
+                        </li>
+
+                        <!-- Address-->
+                        <li class="address">
+                            {{ contactInfos.address }}
+                        </li>
+
+                        <!-- Mobile Number - Email -->
+                        <li class="mobile-email">
+                            Mobile:{{ contactInfos.mobileNumber }} <br>
+                            Email:{{ contactInfos.email }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Copyright -->
+            <div class="footer-copyright">
+
+            </div>
+        </footer>
     </div>
     
 
