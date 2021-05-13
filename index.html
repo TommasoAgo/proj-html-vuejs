@@ -633,29 +633,8 @@
 
                         <!-- Facebook -->
                         <a href="#">
-                            <i class="fab fa-facebook-f"></i>
+                            <i v-for="social in socialMediaIcons" class="fab" :class=" 'fa-' + social "></i>
                         </a>
-
-                        <!-- Twitter -->
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-
-                        <!-- YouTube -->
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-
-                        <!-- Instagram -->
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-
-                        <!-- LinkedIn -->
-                        <a href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        
                     </div>
                 </div>
 
@@ -702,9 +681,34 @@
 
             <!-- Footer Copyright -->
             <div class="footer-copyright">
-
+                <i class="far fa-copyright"></i>
+                Copyright 2012 - 2020|Avada theme by <span>ThemeFusion</span>|
+                All rights reserved|Powered by <span>WordPress</span>
             </div>
         </footer>
+
+        <!-- END FOOTER -->
+
+        <!-- Fixed Boxes (in Footer) -->
+
+        <div class="fixed-boxes">
+
+            <!-- Demos -->
+            <div class="fx-box demos">
+                <i class="fab fa-autoprefixer"></i>
+                <div>
+                    Demos
+                </div>
+            </div>
+            
+            <!-- On Sale -->
+            <div class="fx-box on-sale">
+                <span class="dollar">$</span><span>39</span>
+                <div>
+                    On sale
+                </div>
+            </div>
+        </div>
     </div>
     
 

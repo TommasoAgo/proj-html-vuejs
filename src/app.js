@@ -27,6 +27,15 @@ var app = new Vue(
 
             // FOOTER
 
+            // Social Media Strings Array
+            socialMediaIcons: [
+                'facebook-f',
+                'twitter',
+                'youtube',
+                'instagram',
+                'linkedin-in'
+            ],
+
             // Recent Posts Strings Array
             recentPosts: [
                 'The best protein shake',

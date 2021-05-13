@@ -19,6 +19,8 @@ var app = new Vue({
     // I save it in a variable, just to make it better maintainable
     newMenuElement: 'Store',
     // FOOTER
+    // Social Media Strings Array
+    socialMediaIcons: ['facebook-f', 'twitter', 'youtube', 'instagram', 'linkedin-in'],
     // Recent Posts Strings Array
     recentPosts: ['The best protein shake', 'Ultimate cardio workout', 'New juices available now', 'Tips to find training partners', '20 best healthy recipes'],
     // Contact Infos

@@ -50,4 +50,12 @@ body {
         vertical-align: middle;
         color: #4154ff;
     }
+
+    &:hover {
+
+        i {
+            color: $button_hover;
+        }
+        
+    }
 }

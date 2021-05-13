@@ -38,8 +38,11 @@ footer {
 
     a {
         font-size: 12px;
-        margin: 0 5px;
         color: $icons_sienna;
+
+        i {
+            margin: 0 5px;
+        }
     }
 }
 
@@ -74,3 +77,48 @@ footer {
     color: #bcbcbc !important;
 }
 
+// Footer Copyright
+.footer-copyright {
+    padding: 20px 0;
+    border-top: 0.5px solid #78787a;
+    color: $grey_txt_color;
+    text-align: center;
+    font-size: 12px;
+
+    span {
+        color: white;
+    }
+}
+
+// FIXED BOXES
+.fixed-boxes {
+    display: inline-block;
+    position: fixed;
+    right: 2%;
+    top: 15%;
+}
+
+.fx-box {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    i {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+        color: #6bc39e;
+    }
+
+    .dollar {
+        font-size: 8px;
+        vertical-align: top;
+    }
+}
