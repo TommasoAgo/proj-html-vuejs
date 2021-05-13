@@ -107,6 +107,11 @@ footer {
     font-size: 10px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 
     i {
         font-size: 15px;
